@@ -1,0 +1,21 @@
+{
+  "name": "punto_venta",
+  "version": "1.0.0",
+  "description": "Punto de venta enlazado con SII",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
